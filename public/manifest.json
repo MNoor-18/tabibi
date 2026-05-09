@@ -1,0 +1,25 @@
+{
+  "name": "طبيبي",
+  "short_name": "طبيبي",
+  "description": "تطبيق عربي لحجز مواعيد الأطباء وإدارة الزيارات الطبية.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6faf7",
+  "theme_color": "#57a77e",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "icon512_maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon512_rounded.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
