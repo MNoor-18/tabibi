@@ -42,7 +42,7 @@ export default function SuccessScreen({
       <div className="relative h-150 w-full">
         <div className="absolute -top-7.5 right-0 rounded-t-[30px] bg-white h-150 w-full py-8 ">
           
-          <div className="h-full w-full flex flex-col items-center justify-center sm:justify-start gap-3 ">
+          <div className="h-full w-full flex flex-col items-center sm:justify-start gap-3 ">
             <div className="flex flex-col items-center gap-3">
               <div className="w-17.5 h-17.5 relative rounded-full bg-primary flex items-center justify-center">
                 <Image src="/images/like.png" alt="like" width={35} height={35} priority />
@@ -60,7 +60,7 @@ export default function SuccessScreen({
           </div>
 
           {/* BUTTON SECTION */}
-          <div className="w-full h-23 sm:h-20 fixed left-0 bottom-18 flex flex-col items-center">
+          <div className="w-full h-6 fixed left-0 bottom-18 sm:bottom-0 flex flex-col items-center">
             <button
               type="button"
               onClick={onHome}

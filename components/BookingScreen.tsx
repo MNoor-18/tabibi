@@ -116,7 +116,7 @@ export default function BookingScreen({
           </div>
 
           {/* BUTTON SECTION */}
-          <div className="w-full h-23 sm:h-20 fixed left-0 bottom-18 sm:bottom-0 flex justify-center">
+          <div className="w-full h-6 fixed left-0 bottom-18 sm:bottom-0 flex justify-center">
             <button
               type="button"
               onClick={onConfirm}

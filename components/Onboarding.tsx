@@ -76,7 +76,7 @@ export default function Onboarding({
         </div>
 
           {/* MAIN */}
-        <div className="mt-11.75 h-full flex flex-col justify-between ">
+        <div className="mt-11.75 h-full flex flex-col justify-between pb-5">
           {/* ONBOARDING INFO AND IMAGE */}
           <div className="flex flex-col items-center gap-10 ">
             {/* ONBOARDING IMAGE CONTAINER */}
@@ -108,14 +108,6 @@ export default function Onboarding({
             </div>
 
           </div>
-          {/* <div className="mb-8 mt-auto flex items-center justify-center gap-2">
-                {onboarding.map((item, dotIndex) => (
-                  <span
-                key={item.title}
-                    className={`h-2 rounded-full transition-all ${dotIndex === index ? "w-8 bg-primary" : "w-2 bg-border"}`}
-                  />
-                ))}
-              </div> */}
 
             {/* I HAVE EDITING THIS ITTEM */}
           <div className="flex justify-center w-full h-38">
