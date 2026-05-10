@@ -26,7 +26,7 @@ body {
   margin: 0;
   background: #eef5f1;
   color: #17231f;
-  font-family: Arial, "Tahoma", sans-serif;
+  font-family: var(--font-rubik), Arial, "Tahoma", sans-serif;
 }
 
 button,
@@ -49,4 +49,3 @@ button:disabled {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-

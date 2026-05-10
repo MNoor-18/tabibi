@@ -1,5 +1,13 @@
 import type { Metadata, Viewport } from "next";
+import { Rubik } from "next/font/google";
+import InstallAppButton from "@/components/InstallAppButton";
 import "./globals.css";
+
+const rubik = Rubik({
+  subsets: ["arabic", "latin"],
+  display: "swap",
+  variable: "--font-rubik",
+});
 
 export const metadata: Metadata = {
   title: "طبيبي",
@@ -24,11 +32,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar" dir="rtl">
+    <html lang="ar" dir="rtl" className={rubik.variable}>
       <body>
         <div 
-          className="mx-auto min-h-screen sm:min-h-svh w-full max-w-md overflow-x-hidden bg-red300 shadow-[0_0_60px_rgba(23,35,31,0.12)]"
+          className="relative mx-auto min-h-screen sm:min-h-svh w-full max-w-md overflow-x-hidden bg-red300 shadow-[0_0_60px_rgba(23,35,31,0.12)]"
         >
+          <InstallAppButton />
           {children}
         </div>
       </body>

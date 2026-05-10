@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "description": "تطبيق طبيبي لحجز مواعيد الأطباء وإدارة الزيارات الطبية.",
-  "keywords": [
-    "gNoornf_18b"
-  ],
   "homepage": "https://github.com/MNoor-18/tabibi#readme",
   "bugs": {
     "url": "https://github.com/MNoor-18/tabibi/issues"
