@@ -60,7 +60,7 @@ export default function SuccessScreen({
           </div>
 
           {/* BUTTON SECTION */}
-          <div className="w-full h-6 fixed left-0 bottom-18 sm:bottom-0 flex flex-col items-center">
+          <div className="w-full h-24 fixed left-0 bottom-18 sm:bottom-2 flex flex-col items-center">
             <button
               type="button"
               onClick={onHome}

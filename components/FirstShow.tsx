@@ -3,8 +3,8 @@ import Image from "next/image"
 const FirstShow = () => {
   return (
     <section className="relative h-svh w-full overflow-hidden flex flex-col justify-end bg-linear-to-b from-primary to-white">
-        <div className="w-full h-fit flex justify-center">
-            <h1 className="py-4 text-8xl font-bold bg-linear-to-l from-primary to-[#4F82DB] bg-clip-text text-transparent">
+        <div className="absolute inset-0 z-50 w-full h-full flex justify-center items-center">
+            <h1 className="min-h-fit py-4 text-8xl font-bold bg-linear-to-l from-primary to-[#4F82DB] bg-clip-text text-transparent">
               طبيبي
             </h1>
         </div>

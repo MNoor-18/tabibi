@@ -82,7 +82,7 @@ export default function BookingScreen({
               <h4 className="px-5 text-[16px] font-semibold text-[#2D3E50]">الفترة الصباحية</h4>
 
               {/* TIME { AM } CARDS CONTAINER */}
-              <div className="min-w-full w-fit h-12 mt-3 px-5 overflow-x-auto flex items-start justify-center gap-3.25">
+              <div className="min-w-full w-fit h-12 mt-3 overflow-x-auto flex items-start justify-center gap-3.25">
                   {/* TIME { AM } CARD */}
                   {times.am.map((time) => (
                     <TimeCard
@@ -100,7 +100,7 @@ export default function BookingScreen({
               <h4 className="px-5 text-[16px] font-semibold text-[#2D3E50]">الفترة المسائية</h4>
 
               {/* DATE CARDS CONTAINER */}
-              <div className="min-w-full w-fit h-12 mt-3 px-5 overflow-x-auto flex items-start justify-center gap-3.25">
+              <div className="min-w-full w-fit h-12 mt-3 overflow-x-auto flex items-start justify-center gap-3.25">
                   {/* TIME { PM } CARD */}
                   {times.pm.map((time) => (
                     <TimeCard
@@ -116,7 +116,7 @@ export default function BookingScreen({
           </div>
 
           {/* BUTTON SECTION */}
-          <div className="w-full h-6 fixed left-0 bottom-2 flex justify-center">
+          <div className="w-full h-6 fixed left-0 bottom-12 flex justify-center">
             <button
               type="button"
               onClick={onConfirm}
