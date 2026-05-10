@@ -9,7 +9,7 @@ export default function AppointmentsScreen({
   onOpenDoctor: (doctor: Doctor) => void;
 }) {
   return (
-    <section className="min-h-screen px-5 pb-28 pt-6">
+    <section className="min-h-full px-5 pb-28 pt-6">
       <h1 className="text-2xl font-black">الإشعارات</h1>
 
       <h2 className="mt-6 text-lg font-black">مواعيدي</h2>

@@ -63,7 +63,7 @@ export default function InstallAppButton() {
     <button
       type="button"
       onClick={installApp}
-      className="absolute bottom-24 left-4 z-50 flex h-11 items-center gap-2 rounded-full bg-white/95 px-3 text-xs font-bold text-primary shadow-[0_14px_34px_rgba(23,35,31,0.18)] backdrop-blur"
+      className="fixed bottom-20 left-4 z-50 flex h-11 items-center gap-2 rounded-full bg-white/95 px-3 text-xs font-bold text-primary shadow-[0_14px_34px_rgba(23,35,31,0.18)] backdrop-blur"
       aria-label="تحميل التطبيق على الهاتف"
     >
       <Download size={17} aria-hidden="true" />

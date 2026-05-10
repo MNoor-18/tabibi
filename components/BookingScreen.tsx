@@ -49,7 +49,7 @@ export default function BookingScreen({
 
       {/* BODY SECTION */}
       <div className="relative h-150 w-full">
-        <div className="absolute -top-7.5 right-0 rounded-t-[30px] bg-white h-150 w-full pt-20 pb-20 sm:pt-6 sm:pb-2 ">
+        <div className="absolute -top-7.5 right-0 rounded-t-[30px] bg-white h-150 w-full pt-6 pb-2 ">
           
           <div className="h-75 w-full overflow-hidden flex flex-col justify-between sm:justify-start sm:gap-3 ">
             {/* FIRST CONTAINER */}
@@ -116,7 +116,7 @@ export default function BookingScreen({
           </div>
 
           {/* BUTTON SECTION */}
-          <div className="w-full h-6 fixed left-0 bottom-18 sm:bottom-0 flex justify-center">
+          <div className="w-full h-6 fixed left-0 bottom-2 flex justify-center">
             <button
               type="button"
               onClick={onConfirm}

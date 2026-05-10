@@ -30,7 +30,7 @@ export default function DoctorScreen({ doctor, onBack, onBook }: { doctor: Docto
 
       {/* BODY SECTION */}
       <div className="relative h-150 w-full">
-        <div className="absolute -top-7.5 right-0 rounded-t-[30px] bg-white h-150 w-full px-5 pb-15 sm:pb-2 ">
+        <div className="absolute -top-7.5 right-0 rounded-t-[30px] bg-white h-150 w-full px-5 pt-6 pb-2 ">
           <div className="h-fit w-fit mx-auto mt-15 sm:mt-6 mb-12 sm:mb-4 text-center">
             <h1 className="mt-4 text-xl font-black">{doctor.name}</h1>
             <p className="my-1 text-sm text-[#A9A6A6]">{doctor.specialty}</p>
@@ -51,7 +51,7 @@ export default function DoctorScreen({ doctor, onBack, onBook }: { doctor: Docto
           </div>
 
           {/* BUTTON SECTION */}
-          <div className="w-full h-6 fixed left-0 bottom-18 sm:bottom-2 flex justify-center">
+          <div className="w-full h-6 fixed left-0 bottom-2 flex justify-center">
             <button
               type="button"
               onClick={onBook}
