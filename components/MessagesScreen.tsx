@@ -7,7 +7,7 @@ import { messages } from "@/constants";
 
 export default function MessagesScreen() {
   return (
-    <section className="h-screen w-full overflow-hidden bg-white px-5 pb-28 pt-6">
+    <section className="min-h-full w-full overflow-hidden bg-white px-5 pb-28 pt-6">
       <h1 className="text-xl font-bold mt-4 mb-3">الرسائل</h1>
 
       {/* SEARCH  */}

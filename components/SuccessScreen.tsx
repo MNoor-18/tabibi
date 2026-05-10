@@ -9,11 +9,13 @@ export default function SuccessScreen({
   date,
   time,
   onHome,
+  showAppointment,
 }: {
   doctor: Doctor;
   date: number;
   time: string;
   onHome: () => void;
+  showAppointment: () => void;
 }) {
 
   const theDate = may.days.find((day) => day.dayNumber === date) ?? may.days[0];
@@ -63,10 +65,10 @@ export default function SuccessScreen({
           <div className="w-full h-24 fixed left-0 bottom-18 sm:bottom-2 flex flex-col items-center">
             <button
               type="button"
-              onClick={onHome}
+              onClick={showAppointment}
               className="mx-auto h-11.25 w-91.5 rounded-md bg-primary text-sm font-black text-white"
             >
-              العودة للرئيسية
+              عرض المواعيد
             </button>
 
             <button

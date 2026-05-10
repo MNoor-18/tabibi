@@ -32,7 +32,7 @@ export default function ProfileScreen() {
     // </section>
 
 
-    <section className="h-screen relative overflow-hidden">
+    <section className="min-h-full relative overflow-hidden">
       {/* HEAD SECTION */}
       <div className="relative h-89.25 overflow-hidden bg-linear-to-br from-primary to-[#4F82DB]  px-5 pt-6 text-white">
 
@@ -50,7 +50,7 @@ export default function ProfileScreen() {
 
       {/* BODY SECTION */}
       <div className="relative h-150 w-full">
-        <div className="absolute -top-7.5 right-0 rounded-t-[30px] bg-white h-150 w-full py-20 sm:py-6 flex ">
+        <div className="absolute -top-7.5 right-0 rounded-t-[30px] bg-white h-150 w-full py-10 sm:py-6 flex ">
           
           {/* PROFILE OPTIONS CONTAINER */}
           <div className="min-w-48 min-h-60 h-fit px-5 *:mt-5">

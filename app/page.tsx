@@ -187,6 +187,7 @@ export default function HomePage() {
 
       {view === "success" && (
         <SuccessScreen
+          showAppointment={() => goMain("notification")}
           doctor={selectedDoctor}
           date={selectedDate}
           time={selectedTime}
